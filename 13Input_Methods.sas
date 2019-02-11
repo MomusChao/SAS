@@ -32,7 +32,6 @@ PROC PRINT DATA = Mo_table3;
 RUN; 
 
 /* Formatted Input Method */
-
 DATA Mo_table4;
 INPUT @1 VIP_ID @6 VIP_NAME $;
 DATALINES;
@@ -43,3 +42,25 @@ DATALINES;
 PROC PRINT DATA = Mo_table4;
 RUN; 
 
+/* CARDS = datalines */
+DATA Mo_table;
+INPUT VIP_ID VIP_NAME $;
+CARDS;
+0001 Momus
+0002 Mary
+0003 Jerry
+;
+PROC PRINT DATA = Mo_table;
+RUN;
+
+/* Reading Delimited Data */
+DATA Mo_table;
+INFILE datalines dlm=',';
+INPUT VIP_ID VIP_NAME $;
+DATALINES;
+0001,Momus
+0002,Mary
+0003,Jerry
+;
+PROC PRINT DATA = Mo_table;
+RUN;
