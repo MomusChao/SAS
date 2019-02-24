@@ -31,3 +31,7 @@ RUN;
 
 PROC PRINT DATA = Table4;
 RUN;
+
+/* dropping variables while printing */
+PROC PRINT DATA = Mo_table (drop = VIP_ID);
+RUN;
