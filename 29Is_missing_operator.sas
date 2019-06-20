@@ -17,3 +17,8 @@ DATA MissingTable;
 SET MoTable;
 WHERE Weight is missing;
 RUN;
+
+DATA MissingTable2;
+SET MoTable;
+WHERE Weight is null;
+RUN;
