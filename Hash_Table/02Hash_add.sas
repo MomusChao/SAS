@@ -19,7 +19,7 @@ data _null_;
 	   put 'Add failed.';
 	
 	MoKey = 'Momo';
-	/* Use the FIND method to retrieve the data associated with 'Homer' key */
+	/* Use the FIND method to retrieve the data associated with 'Momo' key */
 	rc = h.find();
 	if (rc = 0) then
 	   put MoData=;
