@@ -6,21 +6,21 @@
 ``` obj.defineKey('key_var')```    
 ``` obj.defineData('data_var')```    
 ``` obj.defineDone()```  
-3. **Hash Methods (cont.)**:
-``` obj.add(key:key_val,data:data_val)```
-``` obj.find(key:key_val)```
-``` obj.replace(key:key_val,data:data_val)```
-``` obj.check(key:key_val)```
-``` obj.remove(key:key_val)```
-``` obj.clear()```
-``` obj.output(dataset:'data_name')```
-``` obj.sum(key:key_val,sum:sum_var)```
-``` obj.ref(key:key_val)```
-``` obj.equals(hash:'hash_obj',result:res_var)```
-``` obj.delete()```
-4. **Hash Methods (cont.)**:
-``` obj.num_items;```
-``` obj.item_size;```
+3. **Hash Methods (cont.)**:  
+``` obj.add(key:key_val,data:data_val)```  
+``` obj.find(key:key_val)```  
+``` obj.replace(key:key_val,data:data_val)```  
+``` obj.check(key:key_val)```  
+``` obj.remove(key:key_val)```  
+``` obj.clear()```  
+``` obj.output(dataset:'data_name')```  
+``` obj.sum(key:key_val,sum:sum_var)```  
+``` obj.ref(key:key_val)```  
+``` obj.equals(hash:'hash_obj',result:res_var)```  
+``` obj.delete()```  
+4. **Hash Methods (cont.)**:  
+``` obj.num_items;```  
+``` obj.item_size;```  
 
 #### DESC:
   - **Hash Tables**:
