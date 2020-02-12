@@ -1,6 +1,6 @@
 # Hash Objects
 
-1. **Hash Declaration Options**: 
+1. **Hash Declaration Options**:  
 ``` declare hash obj(dataset:'Dataset_name')```
 2. **Hash Methods**:    
 ``` obj.defineKey('key_var')```    
