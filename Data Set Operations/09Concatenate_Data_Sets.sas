@@ -7,6 +7,7 @@ DATALINES;
 5 John 175 
 ; 
 RUN; 
+
 DATA Table_2; 
    INPUT id name $ Height; 
 DATALINES; 
@@ -17,6 +18,7 @@ RUN;
 DATA All_table; 
    SET Table_1 Table_2; 
 RUN; 
+
 PROC PRINT DATA = All_table; 
 RUN;  
 
@@ -30,6 +32,7 @@ DATALINES;
 5 John 175 70
 ; 
 RUN; 
+
 DATA Table_2; 
    INPUT id name $ Height; 
 DATALINES; 
@@ -40,6 +43,7 @@ RUN;
 DATA All_table; 
    SET Table_1 Table_2; 
 RUN; 
+
 PROC PRINT DATA = All_table; 
 RUN; 
 
@@ -52,6 +56,7 @@ DATALINES;
 5 John 175 70
 ; 
 RUN; 
+
 DATA Table_2; 
    INPUT id namename $ Height; 
 DATALINES; 
@@ -63,6 +68,7 @@ DATA All_table;
    SET Table_1 Table_2;
    SET Table_1(RENAME =(name = NewName) ) Table_2(RENAME =(namename = NewName) ); 
 RUN; 
+
 PROC PRINT DATA = All_table; 
 RUN; 
 
