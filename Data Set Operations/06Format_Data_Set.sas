@@ -9,5 +9,6 @@ DATALINES;
 3 Terry 59 	F 	
 ;
 RUN;
-   PROC PRINT DATA = Employee; 
+
+PROC PRINT DATA = Employee; 
 RUN; 
