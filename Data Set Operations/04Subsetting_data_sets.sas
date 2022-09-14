@@ -7,12 +7,10 @@ DATALINES;
 ;
 RUN;
 
-
 DATA OnlyDept;
   SET Mo_table;
   KEEP VIP_ID Cost;
 RUN;
-
 
 PROC PRINT DATA = OnlyDept; 
 RUN; 
